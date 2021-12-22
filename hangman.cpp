@@ -45,7 +45,7 @@ int main() {
 		else if (display_guess == word) {
 			won = true;
 		}
-		std::cout << "\n" << guesses << failed_guesses << "\n" << display_guess << "\n";
+		std::cout << "\n" << guesses << "\n" << failed_guesses << "\n" << display_guess << "\n";
 		
 		if (guesses < 6) {
 			head = 'o';
